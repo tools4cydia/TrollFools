@@ -26,7 +26,7 @@ struct SettingsView: View {
                     Toggle(NSLocalizedString("Use Weak Reference", comment: ""), systemImage: "link", isOn: $useWeakReference)
                     Toggle(NSLocalizedString("Prefer Main Executable", comment: ""), systemImage: "doc.badge.gearshape", isOn: $preferMainExecutable)
                 } header: {
-                    Text(NSLocalizedString("Injection", comment: ""))
+                    Text(NSLocalizedString("دليل", comment: ""))
                 } footer: {
                     Text(NSLocalizedString("If you do not know what these options mean, please do not change them.", comment: ""))
                 }
